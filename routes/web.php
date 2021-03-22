@@ -43,6 +43,6 @@ Route::get('/cart', function () {
  */
 Route::middleware(['auth:sanctum', 'verified'])
     ->get('/dashboard', function () {
-        return view('ogani-admin.dashboard');
+        return view('adminlte.dashboard');
     })
     ->name('dashboard');
